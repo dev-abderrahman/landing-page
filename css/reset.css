@@ -18,6 +18,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -26,7 +27,7 @@ a{
 ul,ol{
     list-style: none;
 }
-button {
+button ,input,textarea{
  cursor: pointer;
  border: none;
  outline: none;
