@@ -1,0 +1,38 @@
+/* normal font */
+@font-face {
+    font-family: "Montserrat-regular";
+    src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+/* normal font bold */
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url(/assets/fonts/Montserrat-SemiBold.ttf);
+}
+/* deffirend font */
+@font-face {
+    font-family: "Playwrite";
+    src: url(/assets/fonts/PlaywriteAUNSW-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+button {
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: none;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
